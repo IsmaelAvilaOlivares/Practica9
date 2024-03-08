@@ -1,0 +1,43 @@
+.circulo{/*  mandamos a traer la clase para asignarle caracteristicads */
+    width: 100px;/* establecen el ancho del contenedor */
+    height: 100px;/* establecen la latura  del contenedor*/
+    border-radius: 50%;/*establece el radio de las esquinas del elemento */
+    background-color: blue;/* Define el color de fondo del elemento */
+    border-style: solid;/* establece el estilo del borde del elemento*/
+    margin-bottom: 10px;/*Agrega un margen en la parte inferior  */
+    display: block;/*establece el elemento como un bloque, */
+    margin-left: auto;/* centran horizontalmente el elemento dentro de su contenedor*/
+    margin-right: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+}
+.rectangulo{
+    width: 150px;/* establecen el ancho del contenedor */
+    height: 100px;/* establecen la latura  del contenedor*/
+    background-color: blueviolet;/* Define el color de fondo del elemento */
+    border-style: solid;/* establece el estilo del borde del elemento*/
+    margin-bottom: 10px;/*Agrega un margen en la parte inferior  */
+    display: block;/*establece el elemento como un bloque, */
+    margin-left: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+    margin-right: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+}
+.triangulo{
+    width: 0;/* establecen el ancho del contenedor */
+    height: 0;/* establecen la latura  del contenedor*/
+    border: 150px solid transparent; /*establece un borde invisible pero de gran ancho*/
+    border-top: 0;/* establecer el ancho del borde superior*/
+    border-bottom: 150px solid rgb(232, 6, 176);/* Define el color de fondo del elemento */
+    margin-left: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+    margin-right: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+    display: block;/*establece el elemento como un bloque, */
+}
+.rombo{
+    width: 150px;/* establecen el ancho del contenedor */
+    height: 150px;/* establecen la latura  del contenedor*/
+    background-color: brown;/* Define el color de fondo del elemento */
+    position: relative; /*establece la posición del elemento */
+    transform: rotate(45deg);/* lo rota 45 grados en sentido horario. */
+    margin-top: 50px; /*establece un margen superior*/
+    margin-left: 40px;/* establece un margen izquierdo*/
+    border-style: solid;/* establece el estilo del borde del elemento*/
+    margin-left: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+    margin-right: auto;/*centran horizontalmente el elemento dentro de su contenedor */
+}
